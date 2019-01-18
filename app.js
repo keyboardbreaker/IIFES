@@ -1,6 +1,7 @@
 
-(function() {
+(function(middleAlias) {
     console.log('keyboard');
-}()) //function expression, surrounding function with parenthesis.
+    console.log(middleAlias);
+}('herrwarum')) //function expression, surrounding function with parenthesis.
 
 console.log('breaker');
